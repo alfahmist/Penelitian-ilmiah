@@ -1,0 +1,246 @@
+
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
+
+html, body {
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
+/*
+
+#fff6ee (255,246,238) white
+#db8360 (219,131,96) Orange
+#b2483d (178,72,61) More Orange
+#582f3b (88,47,59)  Violet
+#97b98a (151,185,138) Green
+
+
+/*
+
+*/
+
+  
+#footer, .wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer {
+  background: #343a40;
+  color: #efedee;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+#map {
+        width: 100%;
+        height: 415px;
+        background-color: grey;
+      }
+
+#highlight {
+  overflow: hidden;
+  background: black;
+  margin-top: 100px;
+}
+
+#highlight img {
+  width: 100%;
+  height: 300px;
+}
+
+
+/*gallery*/
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.carousel-inner{
+  max-height: 550px !important;
+}
+.carousel-caption.c {
+  bottom: 10%;
+}
+
+.carousel-caption.b {
+  bottom: 30px;
+}
+.carousel-caption h1{
+ font-size: 5vw;
+}
+.carousel-caption h2 {
+  font-size: 3vw;
+}
+.carousel-caption p,.carousel-caption a {
+  font-size: 2.5vw;
+}
+
+.animfadedown {
+  transform: translate(0,-50px);
+  opacity: 0;
+  transition: .8s;
+}
+
+.animfadeup {
+  transform: translate(0,100px);
+  opacity: 0;
+  transition: .8s;
+}
+
+.animfaderight {
+  transform: translate(50px,0);
+  opacity: 0;
+  transition: .8s;
+}
+
+.animfadeleft {
+  transform: translate(-100px,0);
+  opacity: 0;
+  transition: .8s;
+}
+.animfadedown.tampil, .animfadeup.tampil ,.animfadeleft.tampil,.animfaderight.tampil {
+  transform: translate(0,0px);  
+  opacity: 1;
+}
+
+.brand {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav {
+    transition: .6;
+}
+nav.nav-anim { 
+  transition: .6;
+}
+
+nav.nav-anim a {
+  font-size: 16px;
+   transition: .6s;
+}
+
+
+@media screen and (max-width: 570px) {
+
+ .navbar-brand {
+    width: 150px;
+    transition: 1s;
+  }
+  html, body {
+  overflow-x: hidden;
+  margin-top: 34px;
+}
+}
+
+@media screen and (min-width: 570px) {
+
+ .navbar-brand {
+    width: 300px;
+    transition: 1s;
+  }
+  html, body {
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+}
+
+nav.nav-anim .navbar-brand { 
+  width: 150px;
+  transition: 1s;
+}
+/*CONTACT*/
+
+#contact p {
+  color: #555;
+}
+  
+ .jumbotron {
+  overflow: hidden;
+  background-image: url('../img/rumah-1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: red;
+  background-position: 0 -100px;
+  color: white;
+}
+
+#contact .jumbotron img {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #333;
+}
